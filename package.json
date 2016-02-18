@@ -1,0 +1,21 @@
+{
+    "name": "weaving-chalk",
+    "version": "0.0.1",
+    "description": "Adds chalk support into weaving.",
+    "license": "MIT",
+    "author": {
+        "name": "Mackenzie McClane"
+    },
+    "main": "weaving-chalk.js",
+    "dependencies": {
+        "chalk": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Aarilight/weaving-chalk"
+    },
+    "keywords": [
+        "format", "string.format", "string", "strformat", "weaving", "weave", "arguments", "prototype", "chalk"
+    ],
+    "bugs": { "url" : "https://github.com/Aarilight/weaving-chalk/issues" }
+}
