@@ -1,14 +1,21 @@
 {
     "name": "weaving-chalk",
-    "version": "0.0.1",
-    "description": "Adds chalk support into weaving.",
+    "version": "0.1.0",
+    "description": "Adds Chalk support into Weaving.",
     "license": "MIT",
     "author": {
         "name": "Mackenzie McClane"
     },
-    "main": "weaving-chalk.js",
+    "main": "out/WeavingChalk.js",
+    "typings": "out/WeavingChalk.d.ts",
     "dependencies": {
-        "chalk": "*"
+        "weaving-api": "1.0.0",
+        "chalk": "1.1.3",
+        "@types/chalk": "0.4.31",
+        "@types/node": "7.0.27"
+    },
+    "peerDependencies": {
+        "weaving": "0.9.0"
     },
     "repository": {
         "type": "git",
@@ -16,6 +23,5 @@
     },
     "keywords": [
         "format", "string.format", "string", "strformat", "weaving", "weave", "arguments", "prototype", "chalk"
-    ],
-    "bugs": { "url" : "https://github.com/Aarilight/weaving-chalk/issues" }
+    ]
 }
